@@ -10,9 +10,9 @@
 \author{Your Names}
 \date{\today}
 \maketitle
-
+TEST
 You may work in groups of two for this assignment.  Both team members should make commits on github and contribute equally to the project. Please look at before class  in case there are questions or clarifications needed (or post on Piazza). This complete assignment should be completed using knitr/Sweave.
-
+test
 \begin{enumerate}
   \item  As a variation on the simulation study in Nott \& Kohn (Biometrika
 2005), we will explore shrinkage estimators in the normal linear model
@@ -167,7 +167,9 @@ See
 \item In terms of MSE, which method(s) appears to be best (look  at average MSE and side-by-side boxplots)?  Which method has the least bias?  Which method has the most variability?
 
 \item  (Optional)- repeat the above simulations, but now consider predictive MSE for  predicting new $\Y^*$'s at new $\X^*$ values with the same correlation  structure.  Are the methods that are best for estimating $\b$ also  best for estimating $\Y^*$?   Which seems to be harder?
-
+<<>>=
+c=1
+@
 \end{enumerate}
 
 \item  For  the Gaussian ridge prior,  the lasso (Double exponential), independent Cauchy,  and the Generalized Double pareto, show whether the prior satisfy's any/all of the 3 conditions in Fan and Li (2011) \url{https://www.tandfonline.com/doi/abs/10.1198/016214501753382273}.
